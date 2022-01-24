@@ -9,7 +9,7 @@ If you have an array of numbers of size m like this:
 
 ![array](./assets/array.png)
 
-You can put the numbers in a grid of size $\sqrt{m}$ x $\sqrt{m}$ like this:
+You can put the numbers in a grid of size ![formula](./assets/sqrt-sqrt.png) like this:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![grid](./assets/grid-1.png)
 
@@ -31,7 +31,7 @@ Next, sort all the columns in ascending order like this:
 
 ## Repeat
 
-Repeat the above steps for atleast $\sqrt{m}$ + 1 times:  
+Repeat the above steps for atleast ![grid](./assets/sqrt-1.png)  times:  
 
 1.  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![grid](./assets/grid-5.png) 
 
@@ -64,7 +64,7 @@ console.log(sortedArray); //[1,3,4,4,7,13,20,59,62,77,90,100,102,201]
 
 # BigO stuff
 ## Space complexity
-For an array of size m, the space complexity for this algorithm is $\sqrt{m}$ 
+For an array of size m, the space complexity for this algorithm is ![grid](./assets/sqrt.png) 
 ## Time complexity
 I'm yet to calculate the time complexity, any help would be appreciated :)
 
@@ -76,7 +76,7 @@ In the near future, I'm planning to:
 3. Since rows can be sorted in parallel (same applies to columns), the algorithm's efficiency can further be improved by parallelising these operations
 4. If an array is nearly sorted, it would make more sense to add the elements to the grid the same way you walk the grid (instead of adding the default way) to reduce the number of operations and hence improve the worst case scenario for the time complexity
 5. It would be nice to have implementations in other languages
-6. And most importantly, it would be extremely important to prove the mathematical hypothesis this algorithm is based on ($\sqrt{m}$ + 1 steps)
+6. And most importantly, it would be extremely important to prove the mathematical hypothesis this algorithm is based on (![formula](./assets/sqrt-sqrt.png) times)
 
 # License
 MIT
