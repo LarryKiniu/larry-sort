@@ -1,5 +1,5 @@
 {
-  "name": "larrysort",
+  "name": "larry-sort",
   "version": "1.0.0",
   "description": "implementation for larry sort algorithm for sorting numeric data",
   "main": "index.js",
