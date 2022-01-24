@@ -38,6 +38,4 @@ function sortArray(array){
     return walkGrid(sort(array))
 }
 
-module.exports = {
-    sort: sortArray
-}
+module.exports = sortArray;
