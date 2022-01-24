@@ -76,7 +76,7 @@ In the near future, I'm planning to:
 3. Since rows can be sorted in parallel (same applies to columns), the algorithm's efficiency can further be improved by parallelising these operations
 4. If an array is nearly sorted, it would make more sense to add the elements to the grid the same way you walk the grid (instead of adding the default way) to reduce the number of operations and hence improve the worst case scenario for the time complexity
 5. It would be nice to have implementations in other languages
-6. And most importantly, it would be extremely important to prove the mathematical hypothesis this algorithm is based on (![formula](./assets/sqrt-sqrt.png) times)
+6. And most importantly, it would be extremely important to prove the mathematical hypothesis this algorithm is based on (![formula](./assets/sqrt-1.png) times)
 
 # License
 MIT
