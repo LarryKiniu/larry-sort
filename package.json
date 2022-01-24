@@ -1,11 +1,19 @@
 {
   "name": "larry-sort",
   "version": "1.0.0",
-  "description": "implementation for larry sort algorithm for sorting numeric data",
+  "description": "JavaScript implementation for the larry sort algorithm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LarryKiniu/larry-sort.git"
+  },
   "author": "Larry Kiniu",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LarryKiniu/larry-sort/issues"
+  },
+  "homepage": "https://github.com/LarryKiniu/larry-sort"
 }
