@@ -51,7 +51,7 @@ You will end up with your sorted array:
 # Installation
 You can test the implementation of this algorithm by installing this package via npm or yarn.
 ```shell
-npm install larrysort
+npm install larry-sort
 ```
 
 # Usage
@@ -64,19 +64,19 @@ console.log(sortedArray); //[1,3,4,4,7,13,20,59,62,77,90,100,102,201]
 
 # BigO stuff
 ## Space complexity
-For an array of size m, the space complexity for this algorithm is ![grid](./assets/sqrt.png) 
+For an array of size m, the space complexity for this algorithm is **m**
 ## Time complexity
 I'm yet to calculate the time complexity, any help would be appreciated :)
 
 
 # Future
 In the near future, I'm planning to:
-1. Calculate the time complexity
-2. Improving the efficiency of the algorithm using memoization
-3. Since rows can be sorted in parallel (same applies to columns), the algorithm's efficiency can further be improved by parallelising these operations
-4. If an array is nearly sorted, it would make more sense to add the elements to the grid the same way you walk the grid (instead of adding the default way) to reduce the number of operations and hence improve the worst case scenario for the time complexity
-5. It would be nice to have implementations in other languages
-6. And most importantly, it would be extremely important to prove the mathematical hypothesis this algorithm is based on (![formula](./assets/sqrt-1.png) times)
+1. Calculate the time complexity - ❌
+2. Improving the efficiency of the algorithm using memoization - ✅
+3. Rows can be sorted in parallel (same applies to columns), The algorithm's efficiency can further be improved by sorting all rows in parallel and then all columns in parallel - ❌
+4. If an array is nearly sorted, it would make more sense to add the elements to the grid the same way you walk the grid (instead of adding the default way) to reduce the number of operations and hence improve the worst case scenario for the time complexity - ❌
+5. It would be nice to have implementations in other languages - ❌
+6. And most importantly, I would love to prove the mathematical hypothesis this algorithm is based on (repeating the steps ![formula](./assets/sqrt-1.png) times) - ❌
 
 # License
 MIT

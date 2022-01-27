@@ -1,6 +1,6 @@
 {
   "name": "larry-sort",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript implementation for the larry sort algorithm",
   "main": "index.js",
   "scripts": {
