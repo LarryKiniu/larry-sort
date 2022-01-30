@@ -29,8 +29,12 @@ class Grid {
     getColumn(index){
         let column = [];
         Object.keys(this.rows).forEach(row => {
-            if(this.rows[row].length < this.length){
-                this.rows[row].unshift(undefined);
+            while(this.rows[row].length < this.length){
+                if(row % 2 == 0){
+                    this.rows[row].push(undefined);
+                } else {
+                    this.rows[row].unshift(undefined);
+                }
             }
             column.push(this.rows[row][index])
         });
