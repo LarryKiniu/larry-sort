@@ -75,7 +75,10 @@ In the near future, I'm planning to:
 2. Improving the efficiency of the algorithm using memoization - ✅
 3. Rows can be sorted in parallel (same applies to columns), The algorithm's efficiency can further be improved by sorting all rows in parallel and then all columns in parallel - ❌
 4. If an array is nearly sorted, it would make more sense to add the elements to the grid the same way you walk the grid (instead of adding the default way) to reduce the number of operations and hence improve the worst case scenario for the time complexity - ❌
-5. It would be nice to have implementations in other languages - ❌
+5. It would be nice to have implementations in other languages :  
+    | Language | Link | Author |
+    | -------- | --- | ------- |
+    | c#       | [c#](https://gist.github.com/Cryru/baa09ba4c4792d33e2730acdeaf0df52) | [Vlad Abadzhiev](https://github.com/Cryru) |
 6. And most importantly, I would love to prove the mathematical hypothesis this algorithm is based on (repeating the steps ![formula](./assets/sqrt-1.png) times) - ❌
 
 # License
